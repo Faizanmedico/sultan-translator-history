@@ -12,5 +12,23 @@ hello-open-ai-agent/
 └── requirements.txt         # Project dependencies
 
 
+rm history.json
+echo "[]" > history.json
+
+
+
+
+def clear_history(history_file="history.json"):
+    with open(history_file, "w") as f:
+        f.write("[]")  # empty JSON array
+    print("🧹 Translation history cleared!\n")
+
+
+
+
+command = input("🧹 Type 'clear' to reset history or anything else to continue: ")
+if command.lower() == "clear":
+    clear_history()
+
 
 # sultan-translator-history
