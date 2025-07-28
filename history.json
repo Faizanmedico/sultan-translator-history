@@ -1,0 +1,32 @@
+[
+  {
+    "original": "Hello",
+    "translated": "سلام",
+    "language": "Urdu"
+  },
+  {
+    "original": "where are you going?",
+    "translated": "آپ کہاں جا رہے ہیں؟ (Aap kahan ja rahay hain?)\n",
+    "language": "Urdu"
+  },
+  {
+    "original": "My name is Sultan",
+    "translated": "میرا نام سلطان ہے۔\n(Merā nām Sultān hai.)\n",
+    "language": "Urdu"
+  },
+  {
+    "original": "This is my 10th project",
+    "translated": "یہ میرا دسواں پروجیکٹ ہے۔\n",
+    "language": "Urdu"
+  },
+  {
+    "original": "clear",
+    "translated": "صاف\n",
+    "language": "Urdu"
+  },
+  {
+    "original": "hello I am Sultan and you?",
+    "translated": "السلام علیکم! میں سلطان ہوں اور آپ؟\n(Assalamu Alaikum! Main Sultan hoon aur aap?)\n",
+    "language": "Urdu"
+  }
+]
