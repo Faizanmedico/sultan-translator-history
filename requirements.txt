@@ -1,0 +1,34 @@
+# 📁 Project Structure: hello-open-ai-agent
+
+
+hello-open-ai-agent/
+├── .env                      # Stores GEMINI_API_KEY
+├── connection.py            # Creates and exports RunConfig with Gemini
+├── tool.py                  # Custom tool: translate_to(lang, text)
+├── utils.py                 # History save/load helpers
+├── main.py                  # Synchronous translator agent
+├── async_main.py            # Asynchronous translator agent
+├── history.json             # Translation history (auto-created)
+└── requirements.txt         # Project dependencies
+
+
+rm history.json
+echo "[]" > history.json
+
+
+
+
+def clear_history(history_file="history.json"):
+    with open(history_file, "w") as f:
+        f.write("[]")  # empty JSON array
+    print("🧹 Translation history cleared!\n")
+
+
+
+
+command = input("🧹 Type 'clear' to reset history or anything else to continue: ")
+if command.lower() == "clear":
+    clear_history()
+
+
+# sultan-translator-history
